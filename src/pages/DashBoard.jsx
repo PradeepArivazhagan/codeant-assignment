@@ -1,3 +1,4 @@
+import Header from "../components/DashBoard/Header";
 import SideBar from "../components/DashBoard/SideBar";
 const DashBoard = () => {
   const repositories = [
@@ -52,12 +53,13 @@ const DashBoard = () => {
     },
   ];
   return (
-    <div className="flex flex-row">
+    <div className="flex flex-col lg:flex-row">
+      <Header />
       <SideBar />
-      <div className=" w-full bg-[#FAFAFA] p-5">
-        <div className="bg-white border border-[#E9EAEB] rounded-lg">
+      <div className="pt-16 w-full bg-[#FAFAFA] lg:p-5">
+        <div className="bg-white lg:border border-[#E9EAEB] lg:rounded-lg">
           <div className="py-4 px-5">
-            <div className="flex flex-row items-center justify-between">
+            <div className="flex flex-col items-start lg:flex-row lg:items-center lg:justify-between">
               <div>
                 <h1 className="text-2xl text-[#181D27] font-semibold">
                   Repositories
@@ -66,7 +68,7 @@ const DashBoard = () => {
                   33 total repositories
                 </p>
               </div>
-              <div className="flex flex-row items-center gap-3">
+              <div className="mt-4 lg:mt-0 flex flex-row items-center gap-3">
                 <button className="flex flex-row items-center gap-2 text-[#414651] text-sm py-2 px-3 rounded-lg border border-[#D5D7DA]">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -103,7 +105,7 @@ const DashBoard = () => {
                 </button>
               </div>
             </div>
-            <div className="mt-4 w-fit py-2 px-3 border border-[#D5D7DA] rounded-lg flex flex-row items-center gap-2">
+            <div className="mt-4 w-full lg:w-fit py-2 px-3 border border-[#D5D7DA] rounded-lg flex flex-row items-center gap-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -125,18 +127,21 @@ const DashBoard = () => {
               />
             </div>
           </div>
-          <ul className="h-[31.5rem] overflow-auto">
+          <ul className="lg:h-[31.5rem] lg:overflow-auto">
             {repositories.map((eachRepo, index) => (
-              <li key={index} className="py-4 px-5 border-t border-[#E9EAEB] hover:bg-[#F5F5F5]">
+              <li
+                key={index}
+                className="py-4 px-5 border-t border-[#E9EAEB] hover:bg-[#F5F5F5]"
+              >
                 <div className="flex flex-row items-center gap-2">
-                  <h1 className="text-lg text-[#181D27] font-medium">
+                  <h1 className="text-base lg:text-lg text-[#181D27] font-medium">
                     {eachRepo.title}
                   </h1>
-                  <p className="text-sm text-[#175CD3] font-medium py-0 px-2 bg-[#EFF8FF] border border-[#B2DDFF] rounded-full">
+                  <p className="text-xs lg:text-sm text-[#175CD3] font-medium py-0 px-2 bg-[#EFF8FF] border border-[#B2DDFF] rounded-full">
                     {eachRepo.type}
                   </p>
                 </div>
-                <div className="mt-3 flex flex-row items-center gap-6 text-[#181D27]">
+                <div className="mt-3 flex flex-row items-center gap-3 lg:gap-6 text-[#181D27] text-sm lg:text-base">
                   <div className="flex flex-row items-center gap-2">
                     <h1>{eachRepo.language}</h1>
                     <div className="p-1 bg-[#1570EF] rounded-full"></div>
