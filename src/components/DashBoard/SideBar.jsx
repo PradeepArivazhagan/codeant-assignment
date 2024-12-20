@@ -2,7 +2,7 @@ import codeanticons from "../../assets/SignIn/code ant icon.svg";
 
 const SideBar = () => {
   return (
-    <div className="border-r border-[#E9EAEB] w-[16%] py-4 px-3 flex flex-col justify-between">
+    <div className="h-screen border-r border-[#E9EAEB] w-[16%] py-4 px-3 flex flex-col justify-between">
       <div>
         <div className="flex flex-row items-center gap-2">
           <img src={codeanticons} alt="code ant" className="w-8" />

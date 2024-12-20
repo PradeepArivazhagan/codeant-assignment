@@ -52,11 +52,11 @@ const DashBoard = () => {
     },
   ];
   return (
-    <div className="h-screen flex flex-row">
+    <div className="flex flex-row">
       <SideBar />
-      <div className="w-full bg-[#FAFAFA] p-5">
-        <div className="h-screen overflow-auto bg-white border border-[#E9EAEB] rounded-lg">
-          <div className="fixed w-full py-4 px-5">
+      <div className=" w-full bg-[#FAFAFA] p-5">
+        <div className="bg-white border border-[#E9EAEB] rounded-lg">
+          <div className="py-4 px-5">
             <div className="flex flex-row items-center justify-between">
               <div>
                 <h1 className="text-2xl text-[#181D27] font-semibold">
@@ -125,9 +125,9 @@ const DashBoard = () => {
               />
             </div>
           </div>
-          <ul className="border border-black">
+          <ul className="h-[31.5rem] overflow-auto">
             {repositories.map((eachRepo, index) => (
-              <li key={index} className="py-4 px-5 border-t border-[#E9EAEB]">
+              <li key={index} className="py-4 px-5 border-t border-[#E9EAEB] hover:bg-[#F5F5F5]">
                 <div className="flex flex-row items-center gap-2">
                   <h1 className="text-lg text-[#181D27] font-medium">
                     {eachRepo.title}
