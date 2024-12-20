@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className=" hidden bg-white w-[50%] h-full lg:flex flex-col border-r">
       <div className="relative h-full flex flex-col items-center justify-center">
-        <div className="shadow-[0px_0px_24px_0px_rgba(0,_0,_0,_0.2)] rounded-3xl bg-white">
+        <div className="shadow-[0px_0px_24px_0px_rgba(0,_0,_0,_0.14)] rounded-3xl bg-white">
           <div className="p-5 border-b">
             <div className="flex flex-row items-center gap-2">
               <img src={codeanticon} alt="code ant" />
@@ -29,7 +29,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="absolute -bottom-6 w-64 right-36 bg-white shadow-[0px_0px_24px_0px_rgba(0,_0,_0,_0.2)] rounded-3xl flex flex-row py-4 px-8">
+        <div className="absolute -bottom-6 w-64 right-36 bg-white shadow-[0px_0px_24px_0px_rgba(0,_0,_0,_0.14)] rounded-3xl flex flex-row py-4 px-8">
           <div className="flex flex-col items-start">
             <div className="p-4 bg-[#9D90FA40] rounded-full">
               <img src={pieChart} alt="pie chart icons" className="w-8" />

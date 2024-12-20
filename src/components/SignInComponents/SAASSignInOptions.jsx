@@ -97,7 +97,7 @@ const SAASSignInOptions = () => {
       {buttonItems.map((eachButtonItems, index) => (
         <button
           key={index}
-          className="w-[100%] md:w-[60%] py-3 font-semibold text-[#171717] rounded-lg border border-[#D8DAE5] flex flex-row items-center justify-center gap-2"
+          className="w-[100%] hover:bg-[#FAFAFA] md:w-[60%] py-3 font-semibold text-[#171717] rounded-lg border border-[#D8DAE5] flex flex-row items-center justify-center gap-2"
         >
           {eachButtonItems.icons}
           <span>{eachButtonItems.name}</span>

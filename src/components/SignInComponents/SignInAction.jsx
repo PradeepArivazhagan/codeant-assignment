@@ -25,8 +25,8 @@ const SignInAction = () => {
               onClick={() => onCLickButton("saas")}
               className={` ${
                 activeButton === "saas"
-                  ? "bg-[#1570EF] w-[50%] py-4 font-semibold text-xl text-white rounded-lg border border-[#195fc8]  shadow-[inset_0px_0px_0px_2px_rgba(59,_130,_246,_0.5)]"
-                  : "w-[50%] py-4 font-semibold text-xl text-[#414651] rounded-lg"
+                  ? "bg-[#1570EF] w-[50%] py-2 md:py-4 font-semibold text-xl text-white rounded-lg border border-[#195fc8]  shadow-[inset_0px_0px_0px_2px_rgba(59,_130,_246,_0.5)]"
+                  : "w-[50%] hover:bg-[#f5f5f5] py-2 md:py-4 font-semibold text-xl text-[#414651] rounded-lg"
               }`}
             >
               SAAS
@@ -35,8 +35,8 @@ const SignInAction = () => {
               onClick={() => onCLickButton("selfhosted")}
               className={`${
                 activeButton === "selfhosted"
-                  ? "bg-[#1570EF] w-[50%] py-4 font-semibold text-xl text-white rounded-lg border border-[#195fc8] shadow-[inset_0px_0px_0px_2px_rgba(59,_130,_246,_0.5)]"
-                  : "w-[50%] py-4 font-semibold text-xl text-[#414651] rounded-lg"
+                  ? "bg-[#1570EF] w-[50%] py-2 md:py-4 font-semibold text-xl text-white rounded-lg border border-[#195fc8] shadow-[inset_0px_0px_0px_2px_rgba(59,_130,_246,_0.5)]"
+                  : "w-[50%] hover:bg-[#f5f5f5] py-2 md:py-4 font-semibold text-xl text-[#414651] rounded-lg"
               }`}
             >
               Self Hosted

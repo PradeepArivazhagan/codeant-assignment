@@ -8,12 +8,12 @@ const SideBar = () => {
           <img src={codeanticons} alt="code ant" className="w-8" />
           <h1 className="font-[satoshi] text-xl">CodeAnt AI</h1>
         </div>
-        <select className="w-full mt-4 p-2 rounded-md border border-[#D5D7DA] focus:outline-none">
+        <select className="w-full hover:bg-[#FAFAFA] mt-4 p-2 rounded-md border border-[#D5D7DA] focus:outline-none">
           <option value="Pradeep1">Pradeep1</option>
           <option value="Pradeep2">Pradeep2</option>
         </select>
         <div className="mt-4">
-          <button className="w-full font-medium bg-[#1570EF] py-2 px-3 text-white rounded-md shadow-[inset_0px_0px_0px_2px_rgba(59,_130,_246,_0.5)] flex flex-row items-center justify-start gap-2">
+          <button className="w-full font-medium bg-[#1570EF] py-2 px-3 text-white rounded-lg shadow-[inset_0px_0px_0px_2px_rgba(59,_130,_246,_0.5)] flex flex-row items-center justify-start gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -30,7 +30,7 @@ const SideBar = () => {
             </svg>
             <span>Repositories</span>
           </button>
-          <button className="w-full font-medium py-2 px-3 text-[#414651] rounded-md flex flex-row items-center justify-start gap-2">
+          <button className="w-full hover:bg-[#FAFAFA] font-medium py-2 px-3 text-[#414651] rounded-lg flex flex-row items-center justify-start gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -47,7 +47,7 @@ const SideBar = () => {
             </svg>
             <span>AI Code Review</span>
           </button>
-          <button className="w-full font-medium py-2 px-3 text-[#414651] rounded-md flex flex-row items-center justify-start gap-2">
+          <button className="w-full hover:bg-[#FAFAFA] font-medium py-2 px-3 text-[#414651] rounded-lg flex flex-row items-center justify-start gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -64,7 +64,7 @@ const SideBar = () => {
             </svg>
             <span>Cloud Security</span>
           </button>
-          <button className="w-full font-medium py-2 px-3 text-[#414651] rounded-md flex flex-row items-center justify-start gap-2">
+          <button className="w-full hover:bg-[#FAFAFA] font-medium py-2 px-3 text-[#414651] rounded-lg flex flex-row items-center justify-start gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width={21}
@@ -84,7 +84,7 @@ const SideBar = () => {
             </svg>
             <span>How to Use</span>
           </button>
-          <button className="w-full font-medium py-2 px-3 text-[#414651] rounded-md flex flex-row items-center justify-start gap-2">
+          <button className="w-full hover:bg-[#FAFAFA] font-medium py-2 px-3 text-[#414651] rounded-lg flex flex-row items-center justify-start gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -109,11 +109,11 @@ const SideBar = () => {
         </div>
       </div>
       <div>
-        <button className="flex flex-row items-center gap-2 px-3 py-2 text-[#414651] font-semibold">
+        <button className="hover:bg-[#f5f5f5] w-full rounded-lg flex flex-row items-center gap-2 px-3 py-2 text-[#414651] font-medium">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width={22}
-            height={22}
+            width={20}
+            height={20}
             viewBox="0 0 24 24"
           >
             <path
@@ -123,11 +123,11 @@ const SideBar = () => {
           </svg>
           <h1>Support</h1>
         </button>
-        <button className="flex flex-row items-center gap-2 px-3 py-2 text-[#414651] font-semibold">
+        <button className="hover:bg-[#FAFAFA] w-full rounded-lg flex flex-row items-center gap-2 px-3 py-2 text-[#414651] font-semibold">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width={22}
-            height={22}
+            width={20}
+            height={20}
             viewBox="0 0 24 24"
           >
             <g className="logout-outline">

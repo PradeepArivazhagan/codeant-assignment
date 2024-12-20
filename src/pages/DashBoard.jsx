@@ -69,7 +69,7 @@ const DashBoard = () => {
                 </p>
               </div>
               <div className="mt-4 lg:mt-0 flex flex-row items-center gap-3">
-                <button className="flex flex-row items-center gap-2 text-[#414651] text-sm py-2 px-3 rounded-lg border border-[#D5D7DA]">
+                <button className="hover:bg-[#FAFAFA] flex flex-row items-center gap-2 text-[#414651] text-sm py-2 px-3 rounded-lg border border-[#D5D7DA]">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -86,7 +86,7 @@ const DashBoard = () => {
                   </svg>
                   <span>Refresh All</span>
                 </button>
-                <button className="flex flex-row items-center gap-2 text-white py-2 px-3 rounded-lg text-sm bg-[#1570EF] border border-[#195fc8] shadow-[inset_0px_0px_0px_2px_rgba(59,_130,_246,_0.5)]">
+                <button className="flex flex-row items-center gap-2 text-white py-2 px-3 rounded-lg text-sm bg-[#1570EF] hover:bg-[#175CD3] border border-[#195fc8] shadow-[inset_0px_0px_0px_2px_rgba(59,_130,_246,_0.5)]">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
