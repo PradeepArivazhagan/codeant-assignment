@@ -1,5 +1,5 @@
 import { useState } from "react";
-import codeanticons from "../../assets/SignIn/code ant icon.svg";
+import codeAntSmall from "../../assets/SignIn/codeAntSmall.svg";
 const Header = () => {
   const [menu, setMenu] = useState(false);
   const onClickMenu = () => {
@@ -9,7 +9,7 @@ const Header = () => {
     <div className="fixed w-full lg:hidden border-b">
       <div className="bg-white flex flex-row items-center justify-between p-4">
         <div className="flex flex-row items-center gap-2">
-          <img src={codeanticons} alt="code ant" className="w-7" />
+          <img src={codeAntSmall} alt="code ant" className="w-7" />
           <h1 className="font-[satoshi] text-2xl">CodeAnt AI</h1>
         </div>
         <button onClick={onClickMenu}>

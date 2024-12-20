@@ -1,5 +1,5 @@
 import codeant from "../../assets/SignIn/codeant.svg";
-import codeanticon from "../../assets/SignIn/code ant icon.svg";
+import codeAntSmall from "../../assets/SignIn/codeAntSmall.svg";
 import pieChart from "../../assets/SignIn/pie-chart.svg";
 const About = () => {
   return (
@@ -8,7 +8,7 @@ const About = () => {
         <div className="shadow-[0px_0px_24px_0px_rgba(0,_0,_0,_0.14)] rounded-3xl bg-white">
           <div className="p-5 border-b">
             <div className="flex flex-row items-center gap-2">
-              <img src={codeanticon} alt="code ant" />
+              <img src={codeAntSmall} alt="code ant" />
               <h1 className="text-lg text-[#081735] font-bold">
                 AI to Detect & Autofix Bad Code
               </h1>

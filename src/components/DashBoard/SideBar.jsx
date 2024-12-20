@@ -1,11 +1,11 @@
-import codeanticons from "../../assets/SignIn/code ant icon.svg";
+import codeAntSmall from "../../assets/SignIn/codeAntSmall.svg";
 
 const SideBar = () => {
   return (
     <div className="hidden h-screen border-r border-[#E9EAEB] w-[16%] py-4 px-3 lg:flex flex-col justify-between">
       <div>
         <div className="flex flex-row items-center gap-2">
-          <img src={codeanticons} alt="code ant" className="w-8" />
+          <img src={codeAntSmall} alt="code ant" className="w-8" />
           <h1 className="font-[satoshi] text-xl">CodeAnt AI</h1>
         </div>
         <select className="w-full hover:bg-[#FAFAFA] mt-4 p-2 rounded-md border border-[#D5D7DA] focus:outline-none">
